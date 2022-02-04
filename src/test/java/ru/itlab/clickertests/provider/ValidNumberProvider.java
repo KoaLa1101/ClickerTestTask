@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
+/**
+ * Сlass for generating valid numbers
+ */
 public class ValidNumberProvider implements ArgumentsProvider {
     private static final int NUMBERS_COUNT = 3;
     private static final int HEIGHT = 50;

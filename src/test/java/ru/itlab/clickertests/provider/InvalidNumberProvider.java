@@ -1,4 +1,4 @@
-package ru.itlab.clickertests.test;
+package ru.itlab.clickertests.provider;
 
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.provider.Arguments;
@@ -9,6 +9,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
+
+/**
+ * Сlass for generating invalid numbers
+ */
 public class InvalidNumberProvider implements ArgumentsProvider {
     private static final int NUMBERS_COUNT = 3;
     private static final int HEIGHT = 100000;
